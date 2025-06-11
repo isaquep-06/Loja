@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #191716;
+}
+
+.cabecalho {
+    display: flex;
+}
+
+.logo-pai {
+    display: flex;
+    align-items: center;
+    padding-right: 300px;
+}
+
+.logo-titulo {
+    font-size: 50px;
+    color: #c28111;
+    font-weight: 300;
+}
+
+.logo {
+    width: 150px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    list-style-type: none;
+}
+
+.lista-txt {
+    font-size: 25px;
+    font-weight: 300;
+    color: #c28111;
+    font-family: sans-serif;
+}
+
+
+section {
+    display: flex;
+    justify-content: end;
+    box-shadow: 0px 0px 0px 10px #49494915;
+    border: none;
+}
+
+
+.principal {
+    width: 100%;
+    border: none;
+}
+
+.promo {
+    width: 50%;
+    position: absolute;
+    z-index: 10;
+    padding: 300px 10px 0px 0px;
+}
+
+.promo-h1 {
+    font-size: 6em;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: serif;
+}
+
+.promo-botao {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    background-color: #eceae61a;
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 5px;
+}
+
+
+.titulo {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    color: #c28111;
+}
+
+.pai {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 60px;
+}
+
+
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    gap: 10px;
+}
+
+.produtos-img {
+    width: 250px;
+    height: 35vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 2px #49494940;
+}
+
+.info-produtos {
+    color: white;
+    font-weight: 600;
+    font-family: system-ui;
+    font-size: 15px;
+}
+
+.descricao-produto {
+    color: silver;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.grupo-botao {
+    display: flex;
+    padding-top: 30px;
+}
+
+.comprar,
+.coracao {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ca816de;
+    backdrop-filter: blur(10px);
+    border: navajowhite;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.comprar:hover {
+    background-color: #1e8013;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.banner-pai {
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.rodape {
+    display: flex;
+    margin-top: 70px;
+    width: 85%;
+}
+
+.txt-rodape {
+    color: wheat;
+    width: 70%;
+    font-size: 2em;
+    font-weight: 300;
+    font-family: system-ui;
+    padding-left: 50px;
+}
+
+.grupo-botao-rodape {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+input[type="email"],
+button[type='submit'] {
+    outline: none;
+    border: none;
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+input[type="email"] {
+    width: 30vh;
+    height: 5vh;
+    background-color: transparent;
+    border-bottom: 1px solid #6f6f6f;
+}
+
+input[type="email"]::placeholder {
+    color: #c0c0c093;
+    padding-left: 10px;
+}
+
+input[type="email"]:focus {
+    background-color: transparent;
+    padding-left: 5px;
+
+}
+
+button[type='submit'] {
+    width: 20vh;
+    height: 5vh;
+    background-color: #994013;
+}
+
+button[type='submit']:hover {
+    color: #191716;
+}
+
+.rodape2 {
+    background-color: #0e173c;
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 35px;
+    align-items: center;
+}
+
+.logo-pai-2 {
+    margin: 20px;
+}
+
+.redes-pai {
+    gap: 40px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.redes {
+    width: 50px;
+    border-radius: 10px;
+}
